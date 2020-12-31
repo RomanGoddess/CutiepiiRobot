@@ -193,7 +193,7 @@ def new_member(update: Update, context: CallbackContext):
                     reply_to_message_id=reply,
                 )
                 continue
-
+                
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_text(
